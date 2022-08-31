@@ -1,3 +1,8 @@
+/**
+ * -receivedNumber로 변수를 선언해야 함
+ * 
+ * -좌측: 송신부(버튼입력) / 우측:수신부(출력)
+ */
 radio.onReceivedNumber(function (receivedNumber) {
     if (receivedNumber == 4) {
         basic.showNumber(4)
