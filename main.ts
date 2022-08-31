@@ -4,14 +4,17 @@
  * -좌측: 송신부(버튼입력) / 우측:수신부(출력)
  */
 radio.onReceivedNumber(function (receivedNumber) {
-    if (receivedNumber == 4) {
-        basic.showNumber(4)
+    if (receivedNumber == 1) {
+        basic.showNumber(1)
+        basic.showString("수신받은 라디오 전송 수는 1입니다.")
     }
-    if (receivedNumber == 5) {
-        basic.showNumber(5)
+    if (receivedNumber == 2) {
+        basic.showNumber(2)
+        basic.showString("수신받은 라디오 전송 수는 2입니다.")
     }
-    if (receivedNumber == 6) {
-        basic.showNumber(6)
+    if (receivedNumber == 3) {
+        basic.showNumber(3)
+        basic.showString("수신받은 라디오 전송 수는 3입니다.")
     }
 })
 input.onButtonPressed(Button.A, function () {
